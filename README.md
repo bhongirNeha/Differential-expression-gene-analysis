@@ -26,13 +26,17 @@ In this research article,it has been examined that variations in gene expression
 Target is to check the influence of various nutrients in dataset like proline, dipeptides, ketoglutarate & malic acid on C.albicans taking glucose as control to perform Differential gene expression analysis by retrieving the data from GEO(ID:GSE223317)
 
 
+## Tools & Languages
+
+R, DESeq2
+
 ## WORKFLOW
 
 
 1. Installing & Loading packages like BiocManager, DESeq2, pheatmap, ggplot2, GEOquery
 
 
-2.Loading the dataset.
+2. Loading the dataset.
 
 
 3. EDA
@@ -53,7 +57,7 @@ Target is to check the influence of various nutrients in dataset like proline, d
 8. Filtering low gene counts
 
 
-9.Executing DESeq
+9. Executing DESeq
 
 
 10. Extracting results, filtering padj NA values and retrieving significant genes by setting a threshold of padj to < 0.05 & log2FoldChange to > 1.
@@ -64,5 +68,26 @@ Target is to check the influence of various nutrients in dataset like proline, d
 
 
 ### DESeq
+
+This does normalization, dispersion estimation and statistical testing. 
+
+
+1. Normalization - corrects the differences in sequencing depth between samples.
+
+
+2. Dispersion estimation -models the gene-by-gene variability.
+
+
+3. Statistical testing - fits a model and tests each gene for differential expression.
+
+    i) log2FoldChange- How much the expression changed between conditions.
+
+
+    ii) p-value- probability of observing the difference randomly.
+
+
+   iii) Adjusted p-value (padj/FDR): p-value is corrected for multiple testing as thousands of genes are tested simultaneously which increases the false positive rate(FDR). Based on Benjamini-Hochberg it reduces the FDR.
+
+
 
 
