@@ -89,5 +89,26 @@ This does normalization, dispersion estimation and statistical testing.
    iii) Adjusted p-value (padj/FDR): p-value is corrected for multiple testing as thousands of genes are tested simultaneously which increases the false positive rate(FDR). Based on Benjamini-Hochberg it reduces the FDR.
 
 
+   iv) baseMean- Average normalized expression of the genes across all the samples.
+
+
+   v) lfcse - Log2 Fold Change Standard Error: standard error of the fold change estimate.
+
+
+## Visualization
+
+
+1) VOLCANO PLOTS: A volcano plot helps scientists visualize change and statistical confidence of change. In RNA sequencing, this is log2 Fold Change plotted on the horizontal axis and -1og10 of the p-value on the vertical axis (adjusted p-value).
+
+
+2) PCA PLOTS : PRINCIPLE COMPONENT ANALYSIS - its a dimensionality reduction technique which checks the samples similarity and differences based on gene expression.
+
+
+3) Heatmaps : A heatmap depicts numerical data on a color scale and is often used to visualize gene expression. Gives the correlation.
+
+
+
+
+
 
 
