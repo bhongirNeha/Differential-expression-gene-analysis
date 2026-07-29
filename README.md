@@ -1,6 +1,29 @@
 # Differential-expression-gene-analysis
 
 
+TABLE OF CONTENTS
+
+
++ [Introduction](#introduction)
+
++ [Background](#background)
+
++ [Objective](#objective)
+
++ [Tools & Languages](#tools languages)
+  
++ [Workflow](#workflow)
+
++ [DESeq](#deseq)
+
++ [Visualization](#visualization)
+
++ [Observations](#observations)
+
++ [References](#references)
+
+
+
 ## INTRODUCTION
 
 
@@ -105,6 +128,29 @@ This does normalization, dispersion estimation and statistical testing.
 
 
 3) Heatmaps : A heatmap depicts numerical data on a color scale and is often used to visualize gene expression. Gives the correlation.
+
+
+## OBSERVATIONS
+
+
+This analysis demonstrates that there is impact on the transcriptomic profile of C.albicans due to various nutrients through visualization. Differentially expressed genes has been observed. Proline exhibited the highest differential expressed genes.
+
+
+
+## REFERENCES
+
+
+Rosati D, Palmieri M, Brunelli G, Morrione A, Iannelli F, Frullanti E, Giordano A. Differential gene expression analysis pipelines and bioinformatic tools for the identification of specific biomarkers: A review. Comput Struct Biotechnol J. 2024 Mar 1;23:1154-1168. doi: 10.1016/j.csbj.2024.02.018. PMID: 38510977; PMCID: PMC10951429.
+
+
+Kukurba KR, Montgomery SB. RNA Sequencing and Analysis. Cold Spring Harb Protoc. 2015 Apr 13;2015(11):951-69. doi: 10.1101/pdb.top084970. PMID: 25870306; PMCID: PMC4863231.
+
+
+Altuwajiri, Majdah. (2023). Differential Gene Expression Analysis in Candida albicans: A Comparative Study Between Malic Acid and Glucose Media for Insights into Pathogenicity and Metabolic Pathway Interactions. Egyptian Academic Journal of Biological Sciences, G. Microbiology. 15. 27-42. 10.21608/EAJBSG.2023.317456. 
+
+
+https://bioinformatics.ccr.cancer.gov/docs/bioinformatics-for-beginners-2025/Module2_RNA_Sequencing/Lesson14/
+
 
 
 
